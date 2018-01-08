@@ -1,0 +1,3024 @@
+[ 2017-11-22T16:50:57+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=2
+[ log ] 192.168.2.169/game.php?id=2 [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,776.68kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T16:50:57+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php/login/index.html
+[ log ] 192.168.2.169/game.php/login/index.html [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,744.97kb] [文件加载：56]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ E:\php\xampp\htdocs\application\game\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method app\game\controller\Login::_get()[E:\php\xampp\htdocs\application\game\controller\Login.php:51]
+
+---------------------------------------------------------------
+[ 2017-11-22T16:51:47+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=2
+[ log ] 192.168.2.169/game.php?id=2 [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,776.98kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T16:51:47+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php/login/index.html
+[ log ] 192.168.2.169/game.php/login/index.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,745.91kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ E:\php\xampp\htdocs\application\game\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[E:\php\xampp\htdocs\application\game\controller\Login.php:51]
+
+---------------------------------------------------------------
+[ 2017-11-22T16:51:57+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,776.98kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T16:51:57+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php/login/index.html
+[ log ] 192.168.2.169/game.php/login/index.html [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,745.91kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ E:\php\xampp\htdocs\application\game\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[E:\php\xampp\htdocs\application\game\controller\Login.php:51]
+
+---------------------------------------------------------------
+[ 2017-11-22T16:52:13+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=2
+[ log ] 192.168.2.169/game.php?id=2 [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,776.98kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T16:52:13+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php/login/index.html
+[ log ] 192.168.2.169/game.php/login/index.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,745.91kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ E:\php\xampp\htdocs\application\game\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[E:\php\xampp\htdocs\application\game\controller\Login.php:51]
+
+---------------------------------------------------------------
+[ 2017-11-22T16:56:06+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,776.98kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T16:56:06+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php/login/index.html
+[ log ] 192.168.2.169/game.php/login/index.html [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,745.05kb] [文件加载：56]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ E:\php\xampp\htdocs\application\game\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function app\game\controller\I()[E:\php\xampp\htdocs\application\game\controller\Login.php:51]
+
+---------------------------------------------------------------
+[ 2017-11-22T16:58:36+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=2
+[ log ] 192.168.2.169/game.php?id=2 [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,776.98kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T16:58:36+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php/login/index.html
+[ log ] 192.168.2.169/game.php/login/index.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,760.94kb] [文件加载：65]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ E:\php\xampp\htdocs\application\game\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `openid` = 'otCRywzCVTcyGHUje2njshQUY23k' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T16:58:36+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php/index/index.html
+[ log ] 192.168.2.169/game.php/index/index.html [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,725.33kb] [文件加载：56]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T16:58:36+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=2
+[ log ] 192.168.2.169/game.php?id=2 [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,515.11kb] [文件加载：63]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ E:\php\xampp\htdocs\application\game\controller\Index.php ]
+[ info ] [ VIEW ] E:\php\xampp\htdocs/application/game\view\index\index.html [ array (
+  0 => 'memberinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T16:59:52+08:00 ] 192.168.2.169 192.168.2.170 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：1,777.02kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T16:59:52+08:00 ] 192.168.2.169 192.168.2.170 GET /game.php/login/index.html
+[ log ] 192.168.2.169/game.php/login/index.html [运行时间：0.096005s][吞吐率：10.42req/s] [内存消耗：2,761.39kb] [文件加载：65]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=0osvulo19eqqsmt3b87s3e4g95',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ E:\php\xampp\htdocs\application\game\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `openid` = 'otCRywzCVTcyGHUje2njshQUY23k' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T16:59:53+08:00 ] 192.168.2.169 192.168.2.170 GET /game.php/index/index.html
+[ log ] 192.168.2.169/game.php/index/index.html [运行时间：0.051002s][吞吐率：19.61req/s] [内存消耗：1,725.78kb] [文件加载：56]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=0osvulo19eqqsmt3b87s3e4g95',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T16:59:53+08:00 ] 192.168.2.169 192.168.2.170 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：2,515.56kb] [文件加载：63]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/wxpic,image/sharpp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=0osvulo19eqqsmt3b87s3e4g95',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ E:\php\xampp\htdocs\application\game\controller\Index.php ]
+[ info ] [ VIEW ] E:\php\xampp\htdocs/application/game\view\index\index.html [ array (
+  0 => 'memberinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:00:01+08:00 ] 192.168.2.169 192.168.2.170 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：2,943.01kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=0osvulo19eqqsmt3b87s3e4g95',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:00:04+08:00 ] 192.168.2.169 192.168.2.170 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.094006s][吞吐率：10.64req/s] [内存消耗：2,943.01kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=0osvulo19eqqsmt3b87s3e4g95',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:00:10+08:00 ] 192.168.2.169 192.168.2.170 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：2,943.01kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=0osvulo19eqqsmt3b87s3e4g95',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:00:14+08:00 ] 192.168.2.169 192.168.2.170 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.080004s][吞吐率：12.50req/s] [内存消耗：2,943.01kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=0osvulo19eqqsmt3b87s3e4g95',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:00:17+08:00 ] 192.168.2.169 192.168.2.170 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：2,943.01kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=0osvulo19eqqsmt3b87s3e4g95',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:00:19+08:00 ] 192.168.2.169 192.168.2.170 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,943.01kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=0osvulo19eqqsmt3b87s3e4g95',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:00:22+08:00 ] 192.168.2.169 192.168.2.170 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：2,943.01kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-C5000 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043613 Safari/537.36 MicroMessenger/6.5.10.1080 NetType/WIFI Language/zh_CN',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=0osvulo19eqqsmt3b87s3e4g95',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:01:50+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：2,515.11kb] [文件加载：63]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ E:\php\xampp\htdocs\application\game\controller\Index.php ]
+[ info ] [ VIEW ] E:\php\xampp\htdocs/application/game\view\index\index.html [ array (
+  0 => 'memberinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:19+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.065003s][吞吐率：15.38req/s] [内存消耗：2,515.11kb] [文件加载：63]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ E:\php\xampp\htdocs\application\game\controller\Index.php ]
+[ info ] [ VIEW ] E:\php\xampp\htdocs/application/game\view\index\index.html [ array (
+  0 => 'memberinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:21+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.074005s][吞吐率：13.51req/s] [内存消耗：2,942.98kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://192.168.2.169',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:24+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：2,942.98kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://192.168.2.169',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:26+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：2,942.98kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://192.168.2.169',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:39+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,776.52kb] [文件加载：57]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:39+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php/login/index.html
+[ log ] 192.168.2.169/game.php/login/index.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,760.72kb] [文件加载：65]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\game\controller\Login->index[ E:\php\xampp\htdocs\application\game\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `openid` = 'otCRywzCVTcyGHUje2njshQUY23k' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:39+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php/index/index.html
+[ log ] 192.168.2.169/game.php/index/index.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,725.16kb] [文件加载：56]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:40+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,514.94kb] [文件加载：63]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ E:\php\xampp\htdocs\application\game\controller\Index.php ]
+[ info ] [ VIEW ] E:\php\xampp\htdocs/application/game\view\index\index.html [ array (
+  0 => 'memberinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:43+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:45+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:53+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:07:58+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:08:12+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:08:14+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.092005s][吞吐率：10.87req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:08:19+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:08:46+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.067003s][吞吐率：14.92req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:08:50+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:08:55+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.084005s][吞吐率：11.90req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:08:58+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:08:59+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:09:01+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.092006s][吞吐率：10.87req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:09:03+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:09:04+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:09:06+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:09:08+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:11:07+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.092005s][吞吐率：10.87req/s] [内存消耗：2,942.96kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:13:31+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：2,515.66kb] [文件加载：63]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ E:\php\xampp\htdocs\application\game\controller\Index.php ]
+[ info ] [ VIEW ] E:\php\xampp\htdocs/application/game\view\index\index.html [ array (
+  0 => 'memberinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:14:48+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=2
+[ log ] 192.168.2.169/game.php?id=2 [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：2,685.18kb] [文件加载：66]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ E:\php\xampp\htdocs\application\game\controller\Index.php ]
+[ info ] [ VIEW ] E:\php\xampp\htdocs/application/game\view\index\index.html [ array (
+  0 => 'memberinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:14:51+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,942.98kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://192.168.2.169',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://192.168.2.169/game.php?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:14:52+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.082004s][吞吐率：12.19req/s] [内存消耗：2,942.98kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://192.168.2.169',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://192.168.2.169/game.php?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:14:53+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：2,942.98kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://192.168.2.169',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://192.168.2.169/game.php?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:14:54+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,942.98kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://192.168.2.169',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://192.168.2.169/game.php?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:14:57+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,942.98kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://192.168.2.169',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://192.168.2.169/game.php?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '2',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:14:58+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：2,942.98kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://192.168.2.169',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://192.168.2.169/game.php?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '2',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:15:14+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：2,942.98kb] [文件加载：67]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://192.168.2.169',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://192.168.2.169/game.php?id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '3',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:15:42+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,515.11kb] [文件加载：63]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-us;q=0.6,en;q=0.5;q=0.4',
+  'cookie' => 'PHPSESSID=ktvongvv5raqhjp23b1vaaqi1a',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ E:\php\xampp\htdocs\application\game\controller\Index.php ]
+[ info ] [ VIEW ] E:\php\xampp\htdocs/application/game\view\index\index.html [ array (
+  0 => 'memberinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:20:38+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php?id=5
+[ log ] 192.168.2.169/game.php?id=5 [运行时间：0.085004s][吞吐率：11.76req/s] [内存消耗：2,515.66kb] [文件加载：63]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ E:\php\xampp\htdocs\application\game\controller\Index.php ]
+[ info ] [ VIEW ] E:\php\xampp\htdocs/application/game\view\index\index.html [ array (
+  0 => 'memberinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:20:42+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/roomcreate.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/roomcreate.html [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：3,026.07kb] [文件加载：71]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'roomcreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gametype' => '1',
+  'score' => '1',
+  'rule' => '1',
+  'gamenum' => '10:1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->roomcreate[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `cards` FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_room` WHERE  `member_id` = 9 ORDER BY id desc LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `t_room` (`member_id` , `open_time` , `rule` , `room_cards_num` , `playcount` , `room_num`) VALUES (9 , 1511342442 , 'a:5:{s:5:\"score\";s:1:\"1\";s:5:\"types\";a:0:{}s:4:\"rule\";s:1:\"1\";s:7:\"gamenum\";s:4:\"10:1\";s:8:\"gametype\";s:1:\"1\";}' , 0 , 1 , 'A23344') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `t_member`  SET `cards`=cards-1  WHERE  `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `islock` FROM `t_room` WHERE  `id` = 109 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_member` WHERE  `room_id` = 109 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `t_member`  SET `online`=1,`room_id`=109  WHERE  `id` = 9 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:20:42+08:00 ] 192.168.2.169 192.168.2.169 GET /game.php/douniuplaywjy/index/room_id/109.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/index/room_id/109.html [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：3,094.41kb] [文件加载：70]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://192.168.2.169/game.php?id=5',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'room_id' => '109',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->index[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\php\xampp\htdocs/application/game\view\douniuplaywjy\index.html [ array (
+  0 => 'memberinfo',
+  1 => 'gamerule',
+  2 => 'room',
+  3 => 'rand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `islock` FROM `t_room` WHERE  `id` = 109 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_member` WHERE  `room_id` = 109 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `t_member`  SET `online`=1,`room_id`=109  WHERE  `id` = 9 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_room` WHERE  `id` = 109 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:20:46+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/gameready.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/gameready.html [运行时间：1.362078s][吞吐率：0.73req/s] [内存消耗：3,035.95kb] [文件加载：71]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'gameready',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php/douniuplaywjy/index/room_id/109.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gameready' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->gameready[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `islock` FROM `t_room` WHERE  `id` = 109 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `t_member`  SET `gamestatus`=1  WHERE  `gamestatus` = 0  AND `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `room_id` = 109 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `starttime` FROM `t_room` WHERE  `id` = 109 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `t_member`  SET `gamestatus`=0  WHERE  `pai` = ''  AND `gamestatus` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_room` WHERE  `id` = 109 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `room_id` = 109 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_room` WHERE  `id` = 109 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_moneydetailtemp` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `member_id`,sum(num) as money FROM `t_moneydetailtemp` WHERE  `room_id` = 109 GROUP BY member_id [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9  AND `room_id` > 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` <> 9  AND `room_id` = 109 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_room` WHERE  `id` = 109 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `room_id` = 109 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-22T17:20:46+08:00 ] 192.168.2.169 192.168.2.169 POST /game.php/douniuplaywjy/gameready.html
+[ log ] 192.168.2.169/game.php/douniuplaywjy/gameready.html [运行时间：0.562032s][吞吐率：1.78req/s] [内存消耗：3,006.66kb] [文件加载：70]
+[ info ] [ LANG ] E:\php\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'douniuplaywjy',
+    2 => 'gameready',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.169',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.2.169',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.2.169/game.php/douniuplaywjy/index/room_id/109.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=97a5cofevupketomej194ki359',
+)
+[ info ] [ PARAM ] array (
+  'gameready' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Douniuplaywjy->gameready[ E:\php\xampp\htdocs\application\game\controller\Douniuplaywjy.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_room` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `islock` FROM `t_room` WHERE  `id` = 109 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `t_member`  SET `gamestatus`=1  WHERE  `gamestatus` = 0  AND `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `room_id` = 109 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `starttime` FROM `t_room` WHERE  `id` = 109 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------

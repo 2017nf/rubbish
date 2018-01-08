@@ -1,0 +1,44 @@
+[ 2017-12-19T17:18:05+08:00 ] ::1 ::1 GET /game.php/index/index.html
+[ log ] localhost/game.php/index/index.html [运行时间：6.745000s][吞吐率：0.15req/s] [内存消耗：2,526.65kb] [文件加载：63]
+[ info ] [ LANG ] D:\xampp\htdocs\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'game'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'game',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=mlrvl25lhtkjphd2i83ftlkm15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\game\controller\Index->index[ D:\xampp\htdocs\application\game\controller\Index.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs/application/game\view\index\index.html [ array (
+  0 => 'memberinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.540000s ] mysql:dbname=sq_douniu;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_member` [ RunTime:1.385000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_member` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.126000s ]
+
+---------------------------------------------------------------
