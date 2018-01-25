@@ -18,16 +18,18 @@
     <!-- <link rel="stylesheet" type="text/css" href="__STATIC__/game/css/play.css"> -->
     <style>
         *{margin:0;padding: 0;}
-        body{background: #140C09;}
+        /*body{background: #140C09;}*/
+        body{background: url(__STATIC__/game/img/bg9.png) repeat;}
         body>img{position: absolute;top:0;left: 0;width: 100%;z-index: -1;}
         .content{width: 74%;margin-left: 13%;margin-top: 30%;text-align: center;}
-        .times{display: inline-block;background:#5B5211; border-radius: 0.6rem;height: 1.2rem;line-height:1.2rem;font-size: 0.6rem;color:#D6BC71;padding: 0 0.3rem;border:1px solid #ccc;}
+        .times{display: inline-block;margin:0.3rem 0 0 0;background:#5B5211; border-radius: 0.6rem;height: 1.2rem;line-height:1.2rem;font-size: 0.6rem;color:#D6BC71;padding: 0 0.3rem;border:1px solid #ccc;}
         ul{width: 90%;margin-left: 5%;margin-top: 1.2rem;}
-        ul li{background:#1C1606;color: white;list-style: none;width: 96%;margin-left: 2%;margin-top: 2%;height: 2.2rem;line-height: 2.2rem;font-size: 0.8rem;opacity: 0.9;}
-        ul li span:first-child{float: left;margin-left: 2rem;max-width: 5rem;overflow: hidden; text-overflow:ellipsis;white-space:nowrap;}
+        ul li{color: black;list-style: none;width: 96%;margin-left: 2%;margin-top: 2%;height: 2.0rem;line-height: 2.2rem;font-size: 0.8rem;opacity: 0.9;}
+        ul li span:first-child{float: left;margin-left: 2rem;max-width: 5rem;overflow: hidden; text-overflow:ellipsis;white-space:nowrap;font-size: 1rem;font-style: inherit}
         ul li span:last-child{float: right;margin-right: 2rem;}
-        .add{color:#F5D203!important;}
-        .win{background: url(__STATIC__/game/img/win.png) left top no-repeat;background-size: 12%;}
+        .add{color:red!important;}
+        .win{background: url(__STATIC__/game/img/win2.png) right top no-repeat;background-size: 12%;}
+        .saveResult{width: 100%;color:white;line-height: 2.5rem;text-align: center;font-size: 0.8rem;position:absolute;bottom:5rem}
     </style>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
