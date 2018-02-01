@@ -21,7 +21,19 @@ class Index extends Common
     {
         //model('room') -> accounttemp(2);
         //echo '这里游戏大厅';
+        $room = model('room')->where(array('id' => $this->memberinfo['room_id']))->find();
+        if ($room) {
+            $room = $room->toArray();
+            $this->assign('room', $room);
+        }else{
+            $this->assign('room', []);
+        }
         return $this->fetch();
+    }
+    public function gotoroom()
+    {
+        $room_id = input('room_id');
+        $this->success('创建成功', url('Redirect/jumpToUrl', array('jumpParamName' => 'room_id','jumpToController' => 'Douniuplaywjy','jumpToModel' => 'index','jumpParamValue' =>$room_id )));
     }
 
 

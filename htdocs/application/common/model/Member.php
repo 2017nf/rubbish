@@ -75,6 +75,27 @@ class Member extends Model
     }
 
     /**
+     * 会员解散房间
+     * @return $this
+     */
+    public function quitRoom($where = array())
+    {
+        //如果房间里没有人，就把锁打开
+
+        $member = $this->where($where) -> find();
+        if($member){
+            $member = $member -> toArray();
+            $m = $this -> where(array('id' => array('neq', $member['id']),'online' => 1,'room_id' => $member['room_id'])) -> find();
+            if(!$m){
+                model('room') -> where(array('id' => $member['room_id'])) -> update(array('islock' => 0, 'gamestatus' => 0, 'playcount' => 0));
+                $this->where(array('room_id' => $member['room_id']))->update(array('room_id' => 0, 'gamestatus' => 0));
+            }
+
+        }
+        return $this->where($where)->update(array('online' => 0,'lastcomeouttime' => time()));
+    }
+
+    /**
      * 获取会员的房卡数量
      */
     public function getcardnum($where = array())

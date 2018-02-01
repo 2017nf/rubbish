@@ -64,6 +64,7 @@
 				.box-intogame_3>img{width:45%;position:absolute;top: 40.5%;left:29%;z-index: 9001;}
 				.box-intogame_4>img{width:20%;position:absolute;top: 50%;left: 20%;z-index: 9001;}
 				.box-intogame_5>img{width:20%;position:absolute;top: 50%;right: 20%;z-index: 9001;}
+                .box-intogame_7>span{width:45%;position:absolute;top: 40.5%;left:29%;z-index: 9001;}
 
 				.footer{background: url(__STATIC__/game/img/newEdition/footerbackground.png) repeat;width:100%;height:20%;position: absolute;bottom:0%;}
 				.footer .footer_left{width:20%;height:20%;}
@@ -172,9 +173,12 @@
 				<div class="box-intogame_2">
 					<img src="__STATIC__/game/img/newEdition/reminder.png">
 				</div>
-				<div class="box-intogame_3">
-					<img src="__STATIC__/game/img/newEdition/gameSuccess.png">
-				</div>
+                <div class="box-intogame_3">
+                    <img src="__STATIC__/game/img/newEdition/gameSuccess.png">
+                </div>
+                <div class="box-intogame_7" style="display: none">
+                    <span>你已创建过房间，是否现在进入？</span>
+                </div>
 				<div class="box-intogame_4">
 					<img src="__STATIC__/game/img/newEdition/intoGame.png" onclick="fromSubmit()">
 				</div>
@@ -407,10 +411,18 @@
 				}
 
 				function fromSubmit(){
+                    var $count="{$room.playcount}";
+                    if($count >0){
+                        var $id="{$room.id}";
+                        var $url="/gotoroom/room_id/"+$id;
+                        window.location.href="{:url('"+ $url+"')}"
+                    }else{
+                    alert("....");
 					//提交表单
 					$('#createfrom').submit();
 					$(".box-intogame").hide();
 					$(".overlay_tab").hide();
+                    }
 				}
 
 				function cancelSubmit(){
@@ -423,10 +435,15 @@
             window.location.href=ret.url;
         }});
 
-				function showIntoGames(){
-					$(".overlay_tab").show();
-					$(".box-intogame").show();
-				}
+        function showIntoGames(){
+            var $count="{$room.playcount}";
+            $(".overlay_tab").show();
+            $(".box-intogame").show();
+            if($count >0){
+                $(".box-intogame_3").hide();
+                $(".box-intogame_7").hide();
+            }
+        }
     </script>
 </body>
 </html>

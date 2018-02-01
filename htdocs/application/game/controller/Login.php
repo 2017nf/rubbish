@@ -21,9 +21,9 @@ class Login extends Controller
     public function index()
     {
         //使用微信登录，直接跳转到微信授权地址，这里要用微信的开发包了
-        $this->weixinloginback();
-        //$url = Wechat::app()->oauth->scopes(['snsapi_userinfo'])->redirect() -> getTargetUrl();
-        //$this->redirect($url);
+
+        $url = Wechat::app()->oauth->scopes(['snsapi_userinfo'])->redirect() -> getTargetUrl();
+        $this->redirect($url);
     }
 
     /**
@@ -48,29 +48,12 @@ class Login extends Controller
      */
     public function weixinloginback()
     {
-        $var = '5';
-        $id ='otCRywzCVTcyGHUje2njshQUY23k';
-        if($var == '1'){
-            $id ='otCRywwQID9UBL6YdciIjm-UIKNQ';
-        }else if($var == '2'){
-            $id ='otCRywzCVTcyGHUje2njshQUY23k';
-         }else if($var == '3'){
-            $id ='otCRyww9pMh6Lq9LQM0k9qDrrZOA';
-         }else if($var == '4'){
-            $id ='otCRyw1nbw79lXh1FPVRxDTTBQxc';
-         }else if($var == '5'){
-            $id ='otCRyw8hvjqDlycwskJW0pXxahQw';
-         }else if($var == '6'){
-            $id ='otCRyw43gaKQQULsSoh2YMQ6pjCU';
-         }else if($var == '7'){
-            $id ='otCRyw3qzQWInTvhf4J-Ylqa340o';
-         }
-        //$user = Wechat::app()->oauth->user();
-        //$ret = $user->toArray();
+        $user = Wechat::app()->oauth->user();
+        $ret = $user->toArray();
         //数据模型
         $db = model('member');
         //查询用户的条件
-        $map['openid'] = $id;
+        $map['openid'] = $ret['id'];
         //
         $member = $db->where($map)->find();
         //用户存在了，设置session，直接登录
