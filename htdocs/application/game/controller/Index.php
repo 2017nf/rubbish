@@ -26,7 +26,7 @@ class Index extends Common
             $room = $room->toArray();
             $this->assign('room', $room);
         }else{
-            $this->assign('room', []);
+            $this->assign('room', null);
         }
         return $this->fetch();
     }

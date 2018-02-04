@@ -37,7 +37,7 @@ class Redirect extends Common
         //拼接跳转的路径，PHP用的是点符号拼接字符串
         $jumpTourl=$jumpToController.'/'.$jumpToModel;
         //code指定为整数型2，会展示默认加载图片
-        $this->success('2', url($jumpTourl, array($jumpParamName => $jumpParamValue)));
+        $this->success('2', url($jumpTourl, array($jumpParamName => $jumpParamValue)),null,1);
     }
 
 

@@ -60,7 +60,7 @@ class Douniuplaywjy extends Common
     /**
      * 解散房价
      */
-    public function roomcreate()
+    public function exitRoom()
     {
         //进入房间的ID
         $room_id = input('room_id');
@@ -82,8 +82,8 @@ class Douniuplaywjy extends Common
             model('member') -> where(array('id' => $this->memberinfo['id'])) -> update(array('room_id' => 0, 'gamestatus' => 0));
             model('room') -> where(array('id' => $room_id)) -> update(array('islock' => 0, 'gamestatus' => 0));
         }
-        $this->assign('rand', time());
-        return $this->fetch();
+        $this->success('创建成功', url('Redirect/jumpToUrl', array('jumpParamName' => 'room_id','jumpToController' => 'Index','jumpToModel' => 'index','jumpParamValue' =>$room_id )));
+
     }
 
     /**
