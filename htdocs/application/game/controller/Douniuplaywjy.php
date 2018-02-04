@@ -58,6 +58,35 @@ class Douniuplaywjy extends Common
     }
 
     /**
+     * 解散房价
+     */
+    public function roomcreate()
+    {
+        //进入房间的ID
+        $room_id = input('room_id');
+        if ($room_id > 0) {
+            $room = model('room')->where(array('id' => $room_id,'member_id' => $this->memberinfo['id']))->find();
+            if (!$room) {
+                $this->error('房间不存在啊！！！');
+            }
+            $room = $room->toArray();
+            $this->assign('gamerule', unserialize($room['rule']));
+            $this->assign('room', $room);
+        } else {
+            $this->error('迷路了，找不到房间！！！');
+        }
+        if ($room['playcount'] == 1) {
+            model('member') -> where(array('id' => $this->memberinfo['id'])) -> update(array('room_id' => 0, 'gamestatus' => 0,'cards' => $this->memberinfo['cards'] + $room['room_cards_num'] ));
+            model('room') -> where(array('id' => $room_id)) -> update(array('islock' => 0, 'gamestatus' => 0));
+        }else{
+            model('member') -> where(array('id' => $this->memberinfo['id'])) -> update(array('room_id' => 0, 'gamestatus' => 0));
+            model('room') -> where(array('id' => $room_id)) -> update(array('islock' => 0, 'gamestatus' => 0));
+        }
+        $this->assign('rand', time());
+        return $this->fetch();
+    }
+
+    /**
      * @param $url
      * @param string $data
      * @param string $method
