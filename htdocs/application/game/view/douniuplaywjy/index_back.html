@@ -27,7 +27,7 @@
 
     <![endif]-->
 </head>
-<body style="background:#5A0375;">
+<body>
 
 <style>
     .photo{display: none;}
@@ -58,7 +58,7 @@
     .tanpai{display:none;}
     .cards{display: none;}
     .photo{position: relative;}
-    .readyimg{width:100px !important; height: auto !important; position: absolute; display: none;}
+    .readyimg{width:50px !important; height: auto !important; position: absolute; display: none;}
     .xiazhubox{position: absolute;
         top: -20px;
         width: 80px;}
@@ -113,20 +113,29 @@
 <div class="rules" style="display: none;">
     <img src="__STATIC__/game/img/closes.png">
 
-    <div class="cons" style="background-color:#58709D;">
+    <div class="cons">
         <h2>游戏规则</h2>
         <ul>
+
+
+
+
+
+
+
+
+
             <p>创建房间,游戏未进行,不消耗房卡</p>
-            <li style="background-color:#8CACE6;color:#0a4ce6;">模式:<span>
+            <li>模式:<span>
                 {eq name="gamerule['gametype']" value="1"}牛牛上庄{/eq}
                 {eq name="gamerule['gametype']" value="2"}固定庄家{/eq}
                 {eq name="gamerule['gametype']" value="3"}自由抢庄{/eq}
                 {eq name="gamerule['gametype']" value="4"}明牌抢庄{/eq}
                 {eq name="gamerule['gametype']" value="5"}通比牛牛{/eq}
             </span></li>
-            <li style="background-color:#8CACE6;color:#0a4ce6;">底分:<span>{$gamerule['score']}分</span></li>
+            <li>底分:<span>{$gamerule['score']}分</span></li>
 
-            <li style="background-color:#8CACE6;color:#0a4ce6;">规则:<span>
+            <li>规则:<span>
                 {eq name="gamerule['rule']" value="1"}
                 牛牛x3 牛九x2 牛八x2
                 {/eq}
@@ -136,7 +145,7 @@
                 {/eq}
             </span></li>
 
-            <li style="background-color:#8CACE6;color:#0a4ce6;">牌型:<span>
+            <li>牌型:<span>
                 {notempty name="gamerule['types'][1]"}
                 五花牛(5倍)
                 {/notempty}
@@ -147,7 +156,7 @@
                 五小牛(8倍)
                 {/notempty}
             </span></li>
-            <li style="background-color:#8CACE6;color:#0a4ce6;">局数:<span>
+            <li>局数:<span>
 {eq name="gamerule['gamenum']" value="10:1"}
                 10局x1房卡
 {/eq}
@@ -172,21 +181,20 @@
 
 <div class="container">
     <div class="header">
-        <img src="__STATIC__/game/img/tb.png" width="100%" style="position: absolute;z-index: -1;height: 3.2rem;background:#8C1BCD;">
+        <img src="__STATIC__/game/img/tb.png" width="100%" style="position: absolute;z-index: -1;height: 3.2rem;">
         <img src="__STATIC__/game/img/roomCard.png"
              style="width: 2em;margin:0.3rem 0 0 1rem;vertical-align: middle;"><span
-            style="display: inline-block;padding:0.3rem 0.6rem 0.3rem 0.4rem;background:#564C4A;color: #eee;font-size: 1rem;line-height:1rem;border-top-right-radius: 0.9rem;border-bottom-right-radius: 0.9rem;border: 1px solid #666;vertical-align: bottom;margin-bottom: 0.4rem;"><span id="roomcards">{$room.room_cards_num}</span>张</span>
+            style="display: inline-block;padding:0.3rem 0.6rem 0.3rem 0.4rem;background:#564C4A;color: #eee;font-size: 1rem;line-height:1rem;border-top-right-radius: 0.9rem;border-bottom-right-radius: 0.9rem;border: 1px solid #666;vertical-align: bottom;margin-bottom: 0.4rem;"><span id="roomcards">{$memberinfo['cards']}</span>张</span>
 
         <p class="round"><span id="playcount">{$room.playcount}</span>/<span>10</span>&nbsp;局</p>
 
-        <p class="msg-action"><img src="__STATIC__/game/img/jiesan.png"><img
-                src="__STATIC__/game/img/guize.png" class="rule"><img class="inviteico" src="__STATIC__/game/img/invite.png"></p>
+        <p class="msg-action"><img src="__STATIC__/game/img/guize.png" class="rule"><img
+                src="__STATIC__/game/img/guanzhu.png"><img class="inviteico" src="__STATIC__/game/img/invite.png"></p>
     </div>
     <div class="desk">
-        <img src="__STATIC__/game/img/newEdition/desk.png" style="width:130%;position:absolute;top:3%;left:-5%;">
         <div class="players1">
             <div class="photo" id="player_1">
-                <img src="__STATIC__/game/img/33.png" style="width: 2.5rem;height: 2.5rem;border-radius:100%;">
+                <img src="__STATIC__/game/img/33.png" style="width: 2.5rem;height: 2.5rem;">
                 <img style="right:66px;bottom:34px;" class="readyimg" src="__STATIC__/game/img/ready1.png" style="width: 2.5rem;height: 2.5rem;">
                 <img class="zhuangimg" src="__STATIC__/game/img/zhuang.png">
                 <p><span style="max-width: 2.2rem;font-size: 0.6rem;" class="nickname">不一样的烟火不一样的烟火</span><br/><span class="money">34</span></p>
@@ -202,7 +210,7 @@
                 </div>
             </div>
             <div class="photo" id="player_2">
-                <img src="__STATIC__/game/img/33.png" style="width: 2.5rem;height: 2.5rem;border-radius:100%;">
+                <img src="__STATIC__/game/img/33.png" style="width: 2.5rem;height: 2.5rem;">
                 <img style="right:66px;bottom:34px;" class="readyimg" src="__STATIC__/game/img/ready1.png" style="width: 2.5rem;height: 2.5rem;">
                 <img class="zhuangimg" src="__STATIC__/game/img/zhuang.png">
                 <p><span style="max-width: 2.2rem;font-size: 0.6rem;" class="nickname">不一样的烟火不一样的烟火</span><br/><span class="money">34</span></p>
@@ -220,7 +228,7 @@
         </div>
         <div class="players2">
             <div class="photo"  id="player_3">
-                <img src="__STATIC__/game/img/33.png" style="width: 2.5rem;height: 2.5rem;border-radius:100%;">
+                <img src="__STATIC__/game/img/33.png" style="width: 2.5rem;height: 2.5rem;">
                 <img style="left:73px;bottom:30px;" class="readyimg" src="__STATIC__/game/img/ready1.png" style="width: 2.5rem;height: 2.5rem;">
                 <img class="zhuangimg" src="__STATIC__/game/img/zhuang.png">
                 <p><span style="max-width: 2.2rem;font-size: 0.6rem;" class="nickname">不一样的烟火不一样的烟火</span><br/><span class="money">34</span></p>
@@ -256,14 +264,15 @@
 
             </div>
         </div>
-        <div class="players3" style="top:-2.5%;left:48%;">
+        <div class="players3" style="top:-70px;">
             <div class="photo" id="player_0">
-                <img src="__STATIC__/game/img/33.png" style="width:2.5rem;height:2.5rem;border-radius:100%;">
+                <img src="__STATIC__/game/img/33.png" style="width: 2.5rem;height: 2.5rem;">
                 <img style="left:0px; bottom: -39px;" class="readyimg" src="__STATIC__/game/img/ready1.png" style="width: 2.5rem;height: 2.5rem;">
                 <img class="zhuangimg" src="__STATIC__/game/img/zhuang.png">
-                <p style="position:absolute;top:5%;left:110%;"><span style="max-width: 2.2rem;font-size: 0.6rem;" class="nickname">不一样的烟火不一样的烟火</span><br/><span class="money">34</span></p>
+                <p><span style="max-width: 2.2rem;font-size: 0.6rem;" class="nickname">不一样的烟火不一样的烟火</span><br/><span class="money">34</span></p>
                 <span class="gameret"></span>
-                <div class="cardsbox" style="bottom: -20px;left: -17px;">
+                <div class="cardsbox" style="bottom: -20px;
+    left: -17px;">
                     <div class="poker box1"><img class="pic1" src="__STATIC__/game/img/pai/0.png"></div>
                     <div class="poker box2"><img class="pic2" src="__STATIC__/game/img/pai/0.png"></div>
                     <div class="poker box3"><img class="pic3" src="__STATIC__/game/img/pai/0.png"></div>
@@ -276,7 +285,14 @@
         </div>
         <p class="last-time"><span class="text" style="margin-top:0; width:100%; font-size: 14px;">等待摊牌</span><span class="int">15</span></p>
 
-        <img style="margin: -25px;left: 50%;bottom: 100px;" class="readyimg" id="myreadyimg" src="__STATIC__/game/img/ready1.png" style="width: 2.5rem;height: 2.5rem;">
+
+
+
+
+        <img style="margin: -25px;
+    left: 50%;
+    bottom: 100px;" class="readyimg" id="myreadyimg" src="__STATIC__/game/img/ready1.png" style="width: 2.5rem;height: 2.5rem;">
+
 
         <div class="cards">
             <p style="color:#fff; margin-bottom: 12px; display: none;">等待闲家下注</p>
@@ -312,7 +328,7 @@
     </div>
     <div class="msg" id="player_99">
         <div class="photo member__{$memberinfo.id}" style="display: block;">
-            <img src="{$memberinfo.photo}" style="width: 2.5rem;height: 2.5rem;border-radius:100%;margin-left:3%;">
+            <img src="{$memberinfo.photo}" style="width: 3.5rem;height: 3.5rem;">
             <img class="zhuangimg" src="__STATIC__/game/img/zhuang.png">
             <p><span>{$memberinfo.nickname}</span><br/><span class="moneybox">{$memberinfo.money}</span></p>
 
@@ -321,8 +337,8 @@
 
             <div class="xiazhubox"><img class="bankerimg" src="__STATIC__/game/img/qiangzhuang.png"><img src="__STATIC__/game/img/X-1.png" class="multipleimg"> </div>
         </div>
-        <div class="base-bet" style="background:white;">
-            <p style="color:black;">底注：<span>{$gamerule.score}</span>分</p>
+        <div class="base-bet">
+            <p>底注：<span>{$gamerule.score}</span>分</p>
         </div>
         <img src="__STATIC__/game/img/xiaoxi.png" style="width: 2.6rem;height: 2.2rem;">
         <ul>

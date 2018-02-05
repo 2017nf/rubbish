@@ -89,9 +89,7 @@
         <img src="__STATIC__/game/img/6666.jpg">
     </p>
     <p class="game">
-        <img class="game1" src="__STATIC__/game/img/douniuGame.png">
-				<img src="__STATIC__/game/img/newEdition/douniuGame1.png" onclick="gameend()">
-				<img src="__STATIC__/game/img/newEdition/douniuGame2.png" onclick="gameend()">
+        <img src="__STATIC__/game/img/douniuGame.png">
     </p>
 
     <div class="setact" style="display: none;">
@@ -175,10 +173,12 @@
 				<div class="box-intogame_2">
 					<img src="__STATIC__/game/img/newEdition/reminder.png">
 				</div>
-        <div class="box-intogame_3">
-            <img src="__STATIC__/game/img/newEdition/gameSuccess.png" class="img1">
-						<img src="__STATIC__/game/img/newEdition/gametishi.png" class="img2" style="display:none;">
-        </div>
+                <div class="box-intogame_3">
+                    <img src="__STATIC__/game/img/newEdition/gameSuccess.png">
+                </div>
+                <div class="box-intogame_7" style="display: none">
+                    <span>你已创建过房间，是否现在进入？</span>
+                </div>
 				<div class="box-intogame_4">
 					<img src="__STATIC__/game/img/newEdition/intoGame.png" onclick="fromSubmit()">
 				</div>
@@ -196,7 +196,7 @@
 				<div class="footer_middle">
 						<p>
 								<img src="__STATIC__/game/img/newEdition/nickname.png" style="width:70px;height:25px;position:absolute;bottom:35%;left:29%;" />
-								<span style="position:absolute;bottom:40%;left:32%;color:white;font-size:12px;">{$memberinfo.nickname}</span>
+								<span style="position:absolute;bottom:37%;left:33%;color:white;">{$memberinfo.nickname}</span>
 						</p>
 						<p>
 								<img src="__STATIC__/game/img/newEdition/fangka.png" style="width:20px;height:26px;position:absolute;bottom:12%;left:30%;" />
@@ -218,7 +218,7 @@
     <script src="__STATIC__/js/setajax.js"></script>
     <script type="text/javascript">
         $(function(){
-            $(".game1").click(function(){
+            $(".game").click(function(){
                $(".overlay,.setact").show();
             });
             $(".setact .cons .tabs-con li").eq(3).css("height","2.5rem").end().eq(2).css("height","2.5rem");
@@ -411,17 +411,18 @@
 				}
 
 				function fromSubmit(){
-          	var $count="{$room.playcount}";
-	          if($count >0){
-	              var $id="{$room.id}";
-	              var $url="/gotoroom/room_id/"+$id;
-	              window.location.href="{:url('"+ $url+"')}"
-	          }else{
-								//提交表单
-								$('#createfrom').submit();
-								$(".box-intogame").hide();
-								$(".overlay_tab").hide();
-	          }
+				    //是否已经开过房
+                    var $count="{$room.playcount}";
+                    if($count >0){
+                        var $id="{$room.id}";
+                        var $url="/gotoroom/room_id/"+$id;
+                        window.location.href="{:url('"+ $url+"')}"
+                    }else{
+                        //提交表单
+                        $('#createfrom').submit();
+                        $(".box-intogame").hide();
+                        $(".overlay_tab").hide();
+                    }
 				}
 
 				function cancelSubmit(){
@@ -438,16 +439,11 @@
             var $count="{$room.playcount}";
             $(".overlay_tab").show();
             $(".box-intogame").show();
-            if($count > 0){
-                $(".img1").hide();
-                $(".img2").show();
+            if($count >0){
+                $(".box-intogame_3").hide();
+                $(".box-intogame_7").hide();
             }
         }
-
-				function gameend(){
-						alert("敬请期待");
-				}
-
     </script>
 </body>
 </html>
