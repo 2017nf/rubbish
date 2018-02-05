@@ -169,6 +169,13 @@
     </p>
 </div>
 
+<div class="jiesan_tab" style="display:none;">
+    <img src="__STATIC__/game/img/newEdition/reminder.png" style="width:25%;position:absolute;top: 29.4%;right: 34%;z-index: 9002;" onclick="return false">
+    <img src="__STATIC__/game/img/newEdition/tab.png" style="width:60%;position: absolute;top: 26.4%;left: 20%;z-index: 9001;" onclick="return false">
+    <span style="position: absolute;top:38%;left: 30%;z-index: 9001;font-size:18px;color:#F32C92;font-family:cursive;">是否解散当前房间！！！</span>
+    <img src="__STATIC__/game/img/newEdition/queding.png" style="width:15%;position: absolute;top: 45%;left: 28%;z-index: 9001;" onclick="qdjiesan()">
+    <img src="__STATIC__/game/img/newEdition/cancelGame.png" style="width:15%;position: absolute;top: 45%;left: 58%;z-index: 9001;" onclick="caceljiesan()">
+</div>
 
 <div class="container">
     <div class="header">
@@ -179,11 +186,11 @@
 
         <p class="round"><span id="playcount">{$room.playcount}</span>/<span>10</span>&nbsp;局</p>
 
-        <p class="msg-action"><img src="__STATIC__/game/img/jiesan.png"><img
+        <p class="msg-action"><img src="__STATIC__/game/img/jiesan.png" class="jiesan" onclick="jiesan()"><img
                 src="__STATIC__/game/img/guize.png" class="rule"><img class="inviteico" src="__STATIC__/game/img/invite.png"></p>
     </div>
     <div class="desk">
-        <img src="__STATIC__/game/img/newEdition/desk.png" style="width:130%;position:absolute;top:3%;left:-5%;">
+        <img src="__STATIC__/game/img/newEdition/desk.png" style="width:130%;position:absolute;top:-2%;left:-5%;" onclick="return false">
         <div class="players1">
             <div class="photo" id="player_1">
                 <img src="__STATIC__/game/img/33.png" style="width: 2.5rem;height: 2.5rem;border-radius:100%;">
@@ -957,8 +964,18 @@ mp3play(id);
         });
     }
 
+    function jiesan(){
+        $(".jiesan_tab").show();
+    }
 
+    function qdjiesan(){
+        alert("解散，代码还没写");
+        $(".jiesan_tab").hide();
+    }
 
+    function caceljiesan(){
+        $(".jiesan_tab").hide();
+    }
 
 </script>
 {include file="douniuplaywjy/mp3"}
