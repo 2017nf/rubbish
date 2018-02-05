@@ -17,9 +17,9 @@ return [
     // 数据库名
     'database'        => 'sq_douniu',
     // 用户名
-    'username'        => 'root',
+    'username'        => 'phpmyadmin',
     // 密码
-    'password'        => '',
+    'password'        => 'lixiaolong*pi=3.14',
     // 端口
     'hostport'        => '3306',
     // 连接dsn
