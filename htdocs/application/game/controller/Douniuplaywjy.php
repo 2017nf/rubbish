@@ -94,7 +94,7 @@ class Douniuplaywjy extends Common
             }
         }
         /*通知金币动画结束*/
-        $this->success('迷路了，找不到房间！！！');
+        $this->success('解散房间成功！！');
     }
 
     /**
@@ -175,6 +175,9 @@ class Douniuplaywjy extends Common
             //$this->memberinfo['room_id'] = $room_id; 
             $room = model('room')->where(array('id' => $room_id))->find();
             if (!$room) {
+                $this->error('房间不存在啊！！！');
+            }
+            if (!$room['exit_time']) {
                 $this->error('房间不存在啊！！！');
             }
             $room = $room->toArray();
