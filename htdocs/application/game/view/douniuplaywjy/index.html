@@ -91,6 +91,7 @@
     .window .add{color:#F5D203!important;}
     .window>img{position: absolute;top:0;left: 0;width: 100%;z-index: -1;}
     .window .win{background: url(__STATIC__/game/img/win.png) left top no-repeat;background-size: 12%;}
+    .jiesan{display: none}
 </style>
 
 <div class="window">
@@ -173,7 +174,7 @@
     <img src="__STATIC__/game/img/newEdition/reminder.png" style="width:25%;position:absolute;top: 29.4%;right: 34%;z-index: 9002;" onclick="return false">
     <img src="__STATIC__/game/img/newEdition/tab.png" style="width:60%;position: absolute;top: 26.4%;left: 20%;z-index: 9001;" onclick="return false">
     <span style="position: absolute;top:38%;left: 30%;z-index: 9001;font-size:18px;color:#F32C92;font-family:cursive;">是否解散当前房间！！！</span>
-    <img src="__STATIC__/game/img/newEdition/queding.png" style="width:15%;position: absolute;top: 45%;left: 28%;z-index: 9001;" onclick="qdjiesan()">
+    <img src="__STATIC__/game/img/newEdition/queding.png" style="width:15%;position: absolute;top: 45%;left: 28%;z-index: 9001;" id="jiesan">
     <img src="__STATIC__/game/img/newEdition/cancelGame.png" style="width:15%;position: absolute;top: 45%;left: 58%;z-index: 9001;" onclick="caceljiesan()">
 </div>
 
@@ -182,11 +183,11 @@
         <img src="__STATIC__/game/img/tb.png" width="100%" style="position: absolute;z-index: -1;height: 3.2rem;background:#8C1BCD;">
         <img src="__STATIC__/game/img/roomCard.png"
              style="width: 2em;margin:0.3rem 0 0 1rem;vertical-align: middle;"><span
-            style="display: inline-block;padding:0.3rem 0.6rem 0.3rem 0.4rem;background:#564C4A;color: #eee;font-size: 1rem;line-height:1rem;border-top-right-radius: 0.9rem;border-bottom-right-radius: 0.9rem;border: 1px solid #666;vertical-align: bottom;margin-bottom: 0.4rem;"><span id="roomcards">{$room.room_cards_num}</span>张</span>
+            style="display: inline-block;padding:0.3rem 0.6rem 0.3rem 0.4rem;background:#564C4A;color: #eee;font-size: 1rem;line-height:1rem;border-top-right-radius: 0.9rem;border-bottom-right-radius: 0.9rem;border: 1px solid #666;vertical-align: bottom;margin-bottom: 0.4rem;"><span id="roomcards">{$memberinfo.cards}</span>张</span>
 
         <p class="round"><span id="playcount">{$room.playcount}</span>/<span>10</span>&nbsp;局</p>
 
-        <p class="msg-action"><img src="__STATIC__/game/img/jiesan.png" class="jiesan" onclick="jiesan()"><img
+        <p class="msg-action"><img src="__STATIC__/game/img/jiesan.png" class="jiesan"  style="{eq name="memberinfo['id']" value="$room.member_id"}display:inline"{/eq}"><img
                 src="__STATIC__/game/img/guize.png" class="rule"><img class="inviteico" src="__STATIC__/game/img/invite.png"></p>
     </div>
     <div class="desk">
@@ -465,7 +466,26 @@
         var json = eval('(' + str + ')');
         return json;
     }
+
+
+    function caceljiesan(){
+        $(".jiesan_tab").hide();
+    }
     $(document).ready(function () {
+        $(".jiesan").click(function(){
+            $(".jiesan_tab").show();
+        });
+        $("#jiesan").click(function () {
+            $.post('{:url('exitRoom', array('room_id' => input('room_id')))}', {}, function (ret) {
+                alert(ret.code);
+                alert(JSON.stringify(ret));
+                //解散成功，跳回首页
+                window.location.href="{:url('Index/index')}"
+            }, 'json'
+            );
+            $(".jiesan_tab").hide();
+        });
+
         // 连接服务端
         var socket = io('http://' + document.domain + ':2120');
         // 连接后登录
@@ -501,6 +521,11 @@
             if (ret.type == 1) {
                 msgshow(ret.info, ret.from,ret.msgid);
             }
+            if (ret.type == 666) {
+                alert("房主已解散房间");
+                //解散成功，跳回首页
+                window.location.href="{:url('Index/index')}";
+            }
             if (ret.type == 999) {
                 console.log(ret.data);
                 if(ret.end == 1){
@@ -534,7 +559,7 @@
 
                 $('#playcount').html(ret.room['playcount']);
                 //更新房卡
-                $('#roomcards').html(ret.room['room_cards_num']);
+                //$('#roomcards').html(ret.room['room_cards_num']);
 
                 $('.moneybox').text(ret.money);
                 $('.zhuangimg').hide();
@@ -968,14 +993,6 @@ mp3play(id);
         $(".jiesan_tab").show();
     }
 
-    function qdjiesan(){
-        alert("解散，代码还没写");
-        $(".jiesan_tab").hide();
-    }
-
-    function caceljiesan(){
-        $(".jiesan_tab").hide();
-    }
 
 </script>
 {include file="douniuplaywjy/mp3"}

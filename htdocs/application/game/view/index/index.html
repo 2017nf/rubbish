@@ -95,18 +95,18 @@
     </p>
 
     <div class="setact" style="display: none;">
-				<img class="createRoom" src="__STATIC__/game/img/newEdition/createRoom.png">
-        <img class="closeGame" src="__STATIC__/game/img/newEdition/closes.png">
+				<img class="createRoom" src="__STATIC__/game/img/newEdition/createRoom.png" onclick="return false">
+        <img class="closeGame" src="__STATIC__/game/img/newEdition/closes.png" onclick="return false">
         <div class="cons">
             <form id="createfrom" action="{:url('Douniuplaywjy/roomcreate')}" method="post" callback="none1">
               <input type="hidden" name="gametype" id="gametype" value="1">
               <!-- <h2>创建房间</h2> -->
               <ul class="tabs">
-                   <li onclick="$('#gametype').val(1);" class="cur"><span>牛牛上庄</span></li>
-                   <li onclick="$('#gametype').val(2);"><span>固定庄家</span></li>
+                   <li onclick="$('#gametype').val(1);" class="cur"><span style="text-align: center">牛牛上庄</span></li>
+                   <!--<li onclick="$('#gametype').val(2);"><span>固定庄家</span></li>
                    <li onclick="$('#gametype').val(3);"><span>自由抢庄</span></li>
                    <li onclick="$('#gametype').val(4);"><span>明牌抢庄</span></li>
-                   <li onclick="$('#gametype').val(5);"><span>通比牛牛</span></li>
+                   <li onclick="$('#gametype').val(5);"><span>通比牛牛</span></li>-->
               </ul>
 							<ul class="tabs-tishi">
 								<p>
@@ -209,7 +209,7 @@
 				</div>
 				<div class="footer_right">
 						<p>
-								<img src="__STATIC__/game/img/newEdition/meinv.png" style="width:180px;height:286px;position:absolute;bottom:0%;right:0%;" />
+								<img src="__STATIC__/game/img/newEdition/meinv.png" style="width:180px;height:286px;position:absolute;bottom:0%;right:0%;" onclick="return false"/>
 						</p>
 				</div>
 		</div>
@@ -415,12 +415,14 @@
 	          if($count >0){
 	              var $id="{$room.id}";
 	              var $url="/gotoroom/room_id/"+$id;
-	              window.location.href="{:url('"+ $url+"')}"
+	              var id=$id;
+                  window.location.href="{:url('Redirect/jumpToUrl', array('jumpParamName' => 'room_id','jumpToController' => 'Douniuplaywjy','jumpToModel' => 'index','jumpParamValue' =>$room.id))}"
+
 	          }else{
-								//提交表单
-								$('#createfrom').submit();
-								$(".box-intogame").hide();
-								$(".overlay_tab").hide();
+                    //提交表单
+                    $('#createfrom').submit();
+                    $(".box-intogame").hide();
+                    $(".overlay_tab").hide();
 	          }
 				}
 
@@ -446,6 +448,7 @@
 
 				function gameend(){
 						alert("敬请期待");
+						onclick="return false"
 				}
 
     </script>

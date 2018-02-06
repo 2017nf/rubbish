@@ -21,7 +21,7 @@ class Index extends Common
     {
         //model('room') -> accounttemp(2);
         //echo '这里游戏大厅';
-        $room = model('room')->where(array('id' => $this->memberinfo['room_id']))->find();
+        $room = model('room')->where(array('id' => $this->memberinfo['room_id'],'member_id'=>$this->memberinfo['id']))->find();
         if ($room) {
             $room = $room->toArray();
             $this->assign('room', $room);

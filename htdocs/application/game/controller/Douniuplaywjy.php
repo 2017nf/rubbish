@@ -70,20 +70,31 @@ class Douniuplaywjy extends Common
                 $this->error('房间不存在啊！！！');
             }
             $room = $room->toArray();
-            $this->assign('gamerule', unserialize($room['rule']));
-            $this->assign('room', $room);
         } else {
             $this->error('迷路了，找不到房间！！！');
         }
-        if ($room['playcount'] == 1) {
-            model('member') -> where(array('id' => $this->memberinfo['id'])) -> update(array('room_id' => 0, 'gamestatus' => 0,'cards' => $this->memberinfo['cards'] + $room['room_cards_num'] ));
+        if ($room['playcount'] === 1) {
+            $cards=$this->memberinfo['cards'];
+            $cards=$cards+ $room['room_cards_num']+1;
+            model('member') -> where(array('id' => $this->memberinfo['id'])) -> update(array('room_id' => 0, 'gamestatus' => 0,'cards' => $cards ));
             model('room') -> where(array('id' => $room_id)) -> update(array('islock' => 0, 'gamestatus' => 0));
+            //$this->error('迷路了，找不到房间！！！');
         }else{
             model('member') -> where(array('id' => $this->memberinfo['id'])) -> update(array('room_id' => 0, 'gamestatus' => 0));
             model('room') -> where(array('id' => $room_id)) -> update(array('islock' => 0, 'gamestatus' => 0));
+            //$this->error('迷路了，找不到房间！！！');
         }
-        $this->success('创建成功', url('Redirect/jumpToUrl', array('jumpParamName' => 'room_id','jumpToController' => 'Index','jumpToModel' => 'index','jumpParamValue' =>$room_id )));
 
+        /*通知前端显示金币动画*/
+        $allmember = model('room')->getmember(array('id' => $this->memberinfo['room_id']));
+        if ($allmember) {
+            foreach ($allmember as $k => $v) {
+                $rank['type'] = 666;
+                $this->workermansend($v['id'], json_encode($rank));
+            }
+        }
+        /*通知金币动画结束*/
+        $this->success('迷路了，找不到房间！！！');
     }
 
     /**

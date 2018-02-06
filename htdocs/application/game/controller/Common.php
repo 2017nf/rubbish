@@ -41,8 +41,8 @@ class Common extends Controller
         $this->memberinfo = $member;
         $this->assign('memberinfo', $member);
         //生成js签名
-        //$jsconfig = Wechat::app() -> js ->config(array('onMenuShareQQ', 'onMenuShareWeibo','onMenuShareTimeline', 'onMenuShareAppMessage'),false);
-        //$this->assign('jsconfig', $jsconfig);
+        $jsconfig = Wechat::app() -> js ->config(array('onMenuShareQQ', 'onMenuShareWeibo','onMenuShareTimeline', 'onMenuShareAppMessage'),false);
+        $this->assign('jsconfig', $jsconfig);
 
     }
 }

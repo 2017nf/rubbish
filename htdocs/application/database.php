@@ -17,7 +17,7 @@ return [
     // 数据库名
     'database'        => 'sq_douniu',
     // 用户名
-    'username'        => 'phpmyadmin',
+    'username'        => 'root',
     // 密码
     'password'        => 'lixiaolong*pi=3.14',
     // 端口
