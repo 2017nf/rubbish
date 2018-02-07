@@ -168,6 +168,10 @@ class Douniuplaywjy extends Common
         $room_id = input('room_id');
         if ($room_id > 0) {
             $db = model('member');
+            $user=$db->where(array('room_id' => $room_id))->find();
+            if (!$user) {
+                $this->error('房间已被群主解散！！');
+            }
             $ret = $db->comein($room_id, array('id' => $this->memberinfo['id']));
             if ($ret === false && $this -> memberinfo['room_id'] != $room_id) {
                 $this->error($db->getError());
@@ -177,14 +181,11 @@ class Douniuplaywjy extends Common
             if (!$room) {
                 $this->error('房间不存在啊！！！');
             }
-            if (!$room['exit_time']) {
-                $this->error('房间不存在啊！！！');
-            }
             $room = $room->toArray();
             $this->assign('gamerule', unserialize($room['rule']));
             $this->assign('room', $room);
         } else {
-            $this->error('迷路了，找不到房间！！！');
+            $this->error('迷路了，找不到房间！！！>>>>'+$room_id);
         }
         if ($room['playcount'] == 0) {
             if (input('room_id')) {

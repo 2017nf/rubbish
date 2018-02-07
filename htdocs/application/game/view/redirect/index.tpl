@@ -6,6 +6,7 @@
     <style type="text/css">
         *{ padding: 0; margin: 0; }
         body{ background: #fff; font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif; color: #333; font-size: 16px; }
+        body{background: url(__STATIC__/game/img/bg9.png) repeat;}
         .system-message{ padding: 0px 0px; }
         .system-message h1{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
         .system-message .jump{ padding-top: 10px}
@@ -24,8 +25,11 @@
     <p class="success"><?php echo(strip_tags($msg));?></p>
     <?php break;?>
     <?php case 0:?>
-    <h1>:(</h1>
-    <p class="error"><?php echo(strip_tags($msg));?></p>
+    <div class="jiesan_tab">
+        <img src="__STATIC__/game/img/newEdition/reminder.png" style="width:25%;position:absolute;top: 29.4%;right: 34%;z-index: 9002;" onclick="return false">
+        <img src="__STATIC__/game/img/newEdition/tab.png" style="width:60%;position: absolute;top: 26.4%;left: 20%;z-index: 9001;" onclick="return false">
+        <span style="position: absolute;top:38%;left: 30%;z-index: 9001;font-size:3rem;color:#F32C92;font-family:cursive;"><?php echo(strip_tags($msg));?></span>
+    </div>
     <?php break;?>
     <?php case 2:?>
     <p class="showImg"><img src="__STATIC__/game/img/guide.gif"></p>
